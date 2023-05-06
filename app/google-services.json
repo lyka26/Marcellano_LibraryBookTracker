@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "105327140844",
+    "project_id": "library-book-tracker-31a9c",
+    "storage_bucket": "library-book-tracker-31a9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105327140844:android:3fffd44b5e58b844eb2ac9",
+        "android_client_info": {
+          "package_name": "com.example.marcellano_librarybooktracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105327140844-1ls0t3m716qoget49vfjvi129smrn70t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYAr7yhsCqu8R7qoEJKc7009_6KXuuSF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105327140844-1ls0t3m716qoget49vfjvi129smrn70t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
