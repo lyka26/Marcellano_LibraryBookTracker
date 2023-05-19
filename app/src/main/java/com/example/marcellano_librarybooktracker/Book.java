@@ -1,25 +1,26 @@
 package com.example.marcellano_librarybooktracker;
 
-public class Book {
+// Abstract Book class
+public abstract class Book {
     private String bookCode;
     private String title;
     private String author;
     private int numberOfDaysBorrowed;
     private boolean isBorrowed;
 
-
-    public Book(String bookCode, String title, String author, int numberOfDaysBorrowed, boolean isBorrowed) {
+    // Constructor
+    public Book(String bookCode, String title, String author) {
         this.bookCode = bookCode;
         this.title = title;
         this.author = author;
-        this.numberOfDaysBorrowed = numberOfDaysBorrowed;
-        this.isBorrowed = isBorrowed;
+        this.numberOfDaysBorrowed = 0;
+        this.isBorrowed = false;
     }
 
+    // Getters and setters
     public String getBookCode() {
         return bookCode;
     }
-
     public String getTitle() {
         return title;
     }
@@ -40,6 +41,11 @@ public class Book {
         return isBorrowed;
     }
 
+    public void setBorrowed(boolean borrowed) {
+        isBorrowed = borrowed;
+    }
 
+    // Abstract method to calculate the borrowing cost
+    public abstract double calculateBorrowingCost();
 }
 
